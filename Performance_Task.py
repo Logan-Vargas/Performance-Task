@@ -1,4 +1,4 @@
-# GameStop
+# WingStop Performance Task
 aisle1 = {'animal crossing': 39.99, #A dictionary of video games and their prices for the first function "aisle 1"
         'fortnite': 19.99,
         'among us': 5.99,
@@ -54,7 +54,7 @@ def checkout(aisle1): # the main function with the first parameter in it "aisle 
         print("Approved!") # If the user selects to pay with card, the program will say that the card was approved
 
 
-    print(f"Thank you for shopping with us at Gamestop!!!") # The program thanks the user for shopping at Gamestop
+    print(f"Thank you for shopping with us at Gamestop!") # The program thanks the user for shopping at Gamestop
 
 
 checkout(aisle1) # This program calls the function twice with two different parameters
