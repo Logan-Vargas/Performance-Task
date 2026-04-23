@@ -7,8 +7,6 @@ Wings = {'15 pc meal for 2': 29.69,
          '75 pc pack': 117.89,
          '100 pc pack': 145.39} 
 #A dictionary of wing choices and their prices for the first function "Wings"
-
-
 Crispy_Tenders = {'3 pc crispy tender combo': 9.99,
                    '5 pc crispy tender combo': 12.99,
                    '6 pc crispy tender meal for 2': 14.99,
