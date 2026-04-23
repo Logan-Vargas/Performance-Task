@@ -5,7 +5,8 @@ Wings = {'15 pc meal for 2': 29.69,
          '40 pc group pack': 61.39,
          '50 pc party pack': 76.79,
          '75 pc pack': 117.89,
-         '100 pc pack': 145.39} #A dictionary of wing choices and their prices for the first function "Wings"
+         '100 pc pack': 145.39} 
+#A dictionary of wing choices and their prices for the first function "Wings"
 
 
 Crispy_Tenders = {'3 pc crispy tender combo': 9.99,
@@ -14,7 +15,8 @@ Crispy_Tenders = {'3 pc crispy tender combo': 9.99,
                    '7 crispy tenders': 13.99,
                    '15 crispy tenders': 26.29,
                    '20 crispy tenders': 34.29,
-                   '30 crispy tenders': 49.99} #A dictionary of crispy tenders and their prices for the second function "Crispy_Tenders"
+                   '30 crispy tenders': 49.99} 
+#A dictionary of crispy tenders and their prices for the second function "Crispy_Tenders"
 
 
 def checkout(Wings): # the main function with the first parameter in it "aisle 1"
