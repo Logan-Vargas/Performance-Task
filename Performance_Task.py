@@ -25,7 +25,8 @@ def checkout(Wings): # the main function with the first parameter in it "aisle 1
     print()
     print('...............WingStop Menu...............') # Prints the title for the aisle
     for key, value in Wings.items(): # Goes through each option and price and presents them
-        print(f"{key:10}: ${value:.2f}") # The key function accesses the dictionary and the value shows two decimals places until the hundredths.
+        print(f"{key:10}: ${value:.2f}") # The key function accesses the dictionary and the
+             #value shows two decimals places until the hundredths.
     print('----------------------') # Prints a line in between information for the aisle
 
 
@@ -36,7 +37,8 @@ def checkout(Wings): # the main function with the first parameter in it "aisle 1
         elif Wings.get(Wing_Stop) is not None:
             cart.append(Wing_Stop) # If the user types in a wing option that is in the dictionary, it will add it to the cart
         else:
-            print("Sorry, that item is not in the menu. Please select an item from the menu.") # If the user types in an option that is not in the dictionary, it will say that the item is not in the menu and to select an item from the menu. 
+            print("Sorry, that item is not in the menu. Please select an item from the menu.") # If the user types in an option
+                 #that is not in the dictionary, it will say that the item is not in the menu and to select an item from the menu. 
 
 
     for Wing_Stop in cart: # Once the user is done shopping, the code will present all the items in the cart
