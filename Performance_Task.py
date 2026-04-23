@@ -58,5 +58,6 @@ def checkout(Wings): # the main function with the first parameter in it "aisle 1
 
     print(f"Thank you for dining with us at WingStop!") # The program thanks the user for shopping at WingStop and ends the program.
 
-checkout(Wings) # This program calls the function twice with two different parameters
+checkout(Wings) # This program
+#calls the function twice with two different parameters
 checkout(Crispy_Tenders)
