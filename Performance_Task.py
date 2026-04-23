@@ -26,9 +26,7 @@ def checkout(Wings): # the main function with the first parameter in it "aisle 1
         print(f"{key:10}: ${value:.2f}") # The key function accesses the dictionary and the
              #value shows two decimals places until the hundredths.
     print('----------------------') # Prints a line in between information for the aisle
-
-
-    while True: # While the user is typing in food options, it will add it to the cart, but once the shopper types "done" then it stops.
+         while True: # While the user is typing in food options, it will add it to the cart, but once the shopper types "done" then it stops.
         Wing_Stop = input('select an item (Type "done" to stop shopping and head to checkout): ').lower()
         if Wing_Stop == 'done':
             break
@@ -36,10 +34,8 @@ def checkout(Wings): # the main function with the first parameter in it "aisle 1
             cart.append(Wing_Stop) # If the user types in a wing option that is in the dictionary, it will add it to the cart
         else:
             print("Sorry, that item is not in the menu. Please select an item from the menu.") # If the user types in an option
-                 #that is not in the dictionary, it will say that the item is not in the menu and to select an item from the menu. 
-
-
-    for Wing_Stop in cart: # Once the user is done shopping, the code will present all the items in the cart
+                 #that is not in the dictionary, it will say that the item is not in the menu and to select an item from the menu.        
+         for Wing_Stop in cart: # Once the user is done shopping, the code will present all the items in the cart
         total += Wings.get(Wing_Stop)
         print(Wing_Stop, end=' ')
     print(cart)
@@ -53,7 +49,6 @@ def checkout(Wings): # the main function with the first parameter in it "aisle 1
         print("Okay thank you for paying with cash!")
     elif payment == "Card":
         print("Approved!") # If the user selects to pay with card, the program will say that the card was approved
-
     print(f"Thank you for dining with us at WingStop!") # The program thanks the user for shopping at WingStop and ends the program.
 
 checkout(Wings) # This program
